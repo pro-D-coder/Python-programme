@@ -3,6 +3,7 @@ import math as m
 from os import system, name
 
 def clear():
+    """Function For Clearing the Screen"""
     if name == "nt":
         _ = system('cls')
 
